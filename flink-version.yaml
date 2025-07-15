@@ -16,11 +16,5 @@ requests:
       - type: word
         words:
           - 'flink-version'
-
-    extractors:
-      - type: regex
         part: body
-        group: 1
-        regex:
-          - '"flink-version":"(.*?)",'
 
