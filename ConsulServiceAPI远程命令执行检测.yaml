@@ -27,9 +27,6 @@ requests:
     words:
     - '"EnableScriptChecks": true'
     - '"EnableRemoteScriptChecks": true'
-  - type: word
-    words:
-    - json
   - type: status
     status:
     - 200
